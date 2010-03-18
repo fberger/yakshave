@@ -51,11 +51,11 @@ yak.bindings.add({
         exclude: yak.textElements,
         onkeydown: yak.functions.gotoBottom
     },
-    'M-n': {
+    'C-.': {
         exclude: yak.textElements,
         onkeydown: yak.functions.tabRight
     },
-    'M-p': {
+    'C-,': {
         exclude: yak.textElements,
         onkeydown: yak.functions.tabLeft
     },
